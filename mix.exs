@@ -19,7 +19,9 @@ defmodule ExUnitRelease.MixProject do
   end
 
   defp deps do
-    []
+    [
+      {:ex_doc, "~> 0.18", only: :dev}
+    ]
   end
 
   defp docs do
