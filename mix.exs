@@ -15,7 +15,7 @@ defmodule ExUnitRelease.MixProject do
   end
 
   def application do
-    [extra_applications: [:ex_unit, :logger]]
+    [extra_applications: [:ex_unit]]
   end
 
   defp deps do
